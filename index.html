@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOs List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <dib class="container">
+        <div class="main_div">
+            <div class="caption">
+                <h1>TODOs</h1>
+            </div>
+            <div class="contain">
+                <div class="get_item">
+                    <input type="text" id="getData" placeholder="What would you like to do?">
+                    <p id="error"></p>
+                    <button onclick="add()" id="btn" class="_btn">Add List</button>
+                </div>
+            </div>
+            <div class="veiw">
+                <h3>TODOs LIST</h3>
+                <div class="todos" id="todo">
+                    <div class="itemsName">
+                        <div class="item1">List</div>
+                        <hr>
+                        <div class="item2">Edit</div>
+                        <hr>
+                        <div class="item3">Close</div>
+                    </div>
+                    <!-- <div class="getItems">
+                        <div class="item-name">Defualt Value</div>
+                        <div class="edit"><button id="edit">Edit</button></div>
+                        <div class="close"><button id="del">Delete</button></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </dib>
+    <script src="app.js"></script>
+</body>
+
+</html>
